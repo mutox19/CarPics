@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.danilo.carpics.PictureActivity">
+
+
+    <Button
+        android:id="@+id/addImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Photo" />
+
+    <Button
+        android:id="@+id/selectPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Pictures" />
+
+
+    <Button
+        android:id="@+id/viewCars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Cars" />
+
+
+</LinearLayout>
